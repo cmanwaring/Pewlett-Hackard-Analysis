@@ -1,8 +1,6 @@
 # Pewlett Hackard Analysis
----
 
 ## Overview:
----
 Bobby from Pewlett-Hackard would like for us to setup a database where we can import and house employee and department data. Furthermore, Bobby would like for us to calculate the number of employees by title that can be anticipated to be retiring soon. Bobby is considering starting up a mentorship program where employees that are going to retire soon can move to a part time position and mentor newer employees for their future with the company.
 
 ---
