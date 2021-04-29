@@ -18,7 +18,7 @@ With 90,398 out of 240,124 current employees (37.6%!) approaching retirement, Bo
 ### Side Note:
 While looking through the data, I did notice a dicrepency that could potentially skew some numbers. When I queried `dept_emp` with the `'Manager'` title and `to_date = '9999-01-01'` I got a list with 24 names on it, including several instances of multiple entries for a single department. When I ran the same query on the `dept_manager` table, I get a list of 9 `'Manager'`s with only one per department. Upon further inspection, the `'Manager'`s in the `dept_emp` table ALL have `"to_date = '1999-01-01'"`; which is incorrect, according to the `dept_manager` table. I would guess that once the `dept_manager` table was created, the `dept_emp` table was no longer updated with changes to reflect a new `to_date`, which inflated the number of `'Manager'` titles when querying the `dept_emp` table for managers. This should be updated and the employee responsible for updating the database should be notified of the inaccuracy to prevent further innacuracies.
 
- - Here we see the head of the query that shows `'Manager'` titles from dept_emp:  
+ - Here we see the head of the query that shows `'Manager'` titles from `dept_emp`:  
    ![de_manager_info](Resources/de_manager_info.png)
  - But here we can see that Margareta hasn't received a salary since 1986.  
    ![margareta_salary](Resources/margareta_salary.png)
