@@ -9,7 +9,7 @@ Bobby from Pewlett-Hackard would like for us to setup a database where we can im
 ## Results:
  - We created a table (retirement_titles) with a list of employees born bwtween 1952-01-01 and 1955-12-31 to determine employees that would be eligible for retirement. CSV available here: [retirement_titles.csv](Data/retirement_titles.csv)
  - From the retirement_titles table we created the unique_titles table that only contains each potential-retiree's most recent title. CSV available here: [unique_titles.csv](Data/unique_titles.csv)
- - We then created the retiring_titles table where we counted how many potential-retirees there may be per job title. CSV available here: [retiring_titles](Data/retiring_titles.csv)
+ - We then created the retiring_titles table where we counted how many potential-retirees there may be per job title.
     - ![Number Retiring by Title](Resources/retiring_titles.png)
  - We then created a table (mentorship_eligibility) that lists employees that will be eligible for Bobby's upcoming mentorship program. CSV available here: [mentorship_eligibility.csv](Data/mentorship_eligibility.csv)
  - I decided to go one step further to make Bobby's job a little easier, and I made a table (mentorship_eligibility_count) to count the number of potential mentors by job title. 
