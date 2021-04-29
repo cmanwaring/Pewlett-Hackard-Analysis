@@ -7,7 +7,7 @@ Bobby from Pewlett-Hackard would like for us to setup a database where we can im
 
 ---
 ## Results:
- - We created a table (retirement_titles) with a list of employees born bwtween 1952-01-01 and 1955-12-31 to determine employees that would be eligible for retirement. CSV here: [retirement_titles.csv](https://github.com/cmanwaring/Pewlett-Hackard-Analysis/edit/main/Data/retirement_titles.csv)
+ - We created a table (retirement_titles) with a list of employees born bwtween 1952-01-01 and 1955-12-31 to determine employees that would be eligible for retirement. CSV here: [retirement_titles.csv](https://github.com/cmanwaring/Pewlett-Hackard-Analysis/Data/retirement_titles.csv)
  - Number or retiring employees by title:
     - ![Number Retiring by Title](Resources/retiring_titles.png)
     - With 90,398 employees approaching retirement, Bobby will need to get some measures in place to fill the newly available positions and train the new employees!
