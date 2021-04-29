@@ -8,7 +8,7 @@ Bobby from Pewlett-Hackard would like for us to setup a database where we can im
 ---
 ## Results:
  - Number or retiring employees by title:
-    - ![Number Retiring by Title](../Resources/retiring_titles.png)
+    - ![Number Retiring by Title](Resources/retiring_titles.png)
 
 
 
