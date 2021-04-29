@@ -3,12 +3,15 @@
 
 ## Overview:
 ---
-Bobby from Pewlett-Hackard would like for us to setup a database where we can import and house employee and department data. Furthermore, Bobby would like for us to calculate the number off employees by title that can be anticipated retiring soon. Bobby is considering starting up a mentorship program where employees that are going to retire soon can move to part time and mentor newer employees for their ffuture with the company.
+Bobby from Pewlett-Hackard would like for us to setup a database where we can import and house employee and department data. Furthermore, Bobby would like for us to calculate the number of employees by title that can be anticipated to be retiring soon. Bobby is considering starting up a mentorship program where employees that are going to retire soon can move to part time and mentor newer employees for their future with the company.
 
 ---
 ## Results:
+ - We created a table (retirement_titles) with a list of employees born bwtween 1952-01-01 and 1955-12-31 to determine employees that would be eligible for retirement. [retirement_titles.csv](https://github.com/cmanwaring/Pewlett-Hackard-Analysis/edit/main/Data/retirement_titles.csv)
  - Number or retiring employees by title:
     - ![Number Retiring by Title](Resources/retiring_titles.png)
+    - With 90,398 employees approaching retirement, Bobby will need to get some measures in place to fill the newly available positions and train the new employees!
+ - The unique
 
 
 
@@ -21,9 +24,6 @@ The written analysis has the following:
     - There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
   - Summary:
     - The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
-
-
-
 
 --
 --
