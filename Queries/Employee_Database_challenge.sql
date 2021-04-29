@@ -30,6 +30,10 @@ FROM unique_titles
 GROUP BY title
 ORDER BY count DESC
 
+SELECT * FROM retirement_titles
+SELECT * FROM unique_titles
+SELECT * FROM retiring_titles
+
 --  DELIVERABLE 2:
 SELECT DISTINCT ON (emp_no) e.emp_no,
        e.first_name,
