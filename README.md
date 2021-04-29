@@ -4,9 +4,9 @@ Pewlett Hackard Analysis
 ---
 As a reminder, the deliverables for this Challenge are as follows:
 
-Deliverable 1: The Number of Retiring Employees by Title\n
-Deliverable 2: The Employees Eligible for the Mentorship Program\n
-Deliverable 3: A written report on the employee database analysis (README.md)\n
+Deliverable 1: The Number of Retiring Employees by Title
+Deliverable 2: The Employees Eligible for the Mentorship Program
+Deliverable 3: A written report on the employee database analysis (README.md)
 
 ---
 Analysis (14 points)
