@@ -17,42 +17,8 @@ Bobby from Pewlett-Hackard would like for us to setup a database where we can im
 
 ---
 ## Summary:
-With 90,398 employees approaching retirement, Bobby will need to get some measures in place to fill the newly available positions and train the new employees!
-
-
-
-
-The written analysis has the following:
-  - Overview of the analysis:
-    -    
-  - Results:
-    - There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-  - Summary:
---
---
---
---
---
---
-As a reminder, the deliverables for this Challenge are as follows:
-
- - Deliverable 1: The Number of Retiring Employees by Title
- - Deliverable 2: The Employees Eligible for the Mentorship Program
- - Deliverable 3: A written report on the employee database analysis (README.md)
-
---
-Analysis (14 points)
-The written analysis has the following:
-  - Overview of the analysis:
-    - The purpose of the new analysis is well defined. (3 pt)    
-  - Results:
-    - There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-  - Summary:
-    - The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+With 90,398 out of 240,124 current employees (37.6%!) approaching retirement, Bobby will need to get some measures in place to fill the newly available positions and train the new employees! Luckily, he has an idea to create a mentorship program to help transition retirees, as well as up-coming all-stars into their new positions.
 
 ---
-Mastery
- - ✓The purpose is well defined. 
- - ✓There is a bulleted list that addresses FOUR major results. 
- - ✓The summary addresses the TWO questions and contains TWO additional queries or tables.
-
+### Side Note:
+While looking through the data, I did notice a dicrepency that could potentially skew some numbers. When I queried dept_emp with the 'Manager' title and to_date = '9999-01-01' I got a list with 24 names on it, including several instances of multiple entries for a single department. When I ran the same query on the dept_manager table, I get a list of 9 'Manager's with only one per department. Upon further inspection, the 'Manager's in the dept_emp table ALL have "to_date = '1999-01-01'"; which is incorrect, according to the dept_manager table. I would guess that once the dept_manager table was created, the dept_emp table was no longer updated with changes to reflect a new to_date, which inflated the number of 'Manager' titles when querying the dept_emp table for managers. This should be updated.
