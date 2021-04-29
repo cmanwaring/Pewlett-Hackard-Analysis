@@ -3,7 +3,6 @@
 ## Overview:
 Bobby from Pewlett-Hackard would like for us to setup a database where we can import and house employee and department data. Furthermore, Bobby would like for us to calculate the number of employees by title that can be anticipated to be retiring soon. Bobby is considering starting up a mentorship program where employees that are going to retire soon can move to a part time position and mentor newer employees for their future with the company.
 
----
 ## Results:
  - We created a table (retirement_titles) with a list of employees born bwtween 1952-01-01 and 1955-12-31 to determine employees that would be eligible for retirement. CSV available here: [retirement_titles.csv](Data/retirement_titles.csv)  
  - From the retirement_titles table we created the unique_titles table that only contains each potential-retiree's most recent title. CSV available here: [unique_titles.csv](Data/unique_titles.csv)  
@@ -13,7 +12,6 @@ Bobby from Pewlett-Hackard would like for us to setup a database where we can im
  - I decided to go one step further to make Bobby's job a little easier, and I made a table (mentorship_eligibility_count) to count the number of potential mentors by job title.  
    ![mentorship_eligibility_count](Resources/mentorship_eligibility_count.png)  
 
----
 ## Summary:
 With 90,398 out of 240,124 current employees (37.6%!) approaching retirement, Bobby will need to get some measures in place to fill the newly available positions and train the new employees! Luckily, he has an idea to create a mentorship program to help transition retirees, as well as up-coming all-stars into their new positions.
 
