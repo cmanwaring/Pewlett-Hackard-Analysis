@@ -21,4 +21,4 @@ While looking through the data, I did notice a dicrepency that could potentially
  - Here we see the head of the query that shows `'Manager'` titles from dept_emp:  
    ![de_manager_info](Resources/de_manager_info.png)
  - But here we can see that Margareta hasn't received a salary since 1986.  
-   ![margareta_salary](margareta_salary.png)
+   ![margareta_salary](Resources/margareta_salary.png)
